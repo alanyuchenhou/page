@@ -1,0 +1,32 @@
+/* FAQ Hero Section */
+.faq-hero {
+  background: linear-gradient(135deg, var(--primary-color), #003399);
+  color: white;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.faq-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.category h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}

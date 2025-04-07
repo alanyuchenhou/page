@@ -1,0 +1,13 @@
+/* Engineering Hero Section */
+.engineering-hero {
+  background: linear-gradient(135deg, var(--primary-color), #003399);
+  color: white;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+/* Features Section */
+.features {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
